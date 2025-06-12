@@ -194,3 +194,49 @@ p{
     color: rgb(255, 255, 255);
 }
 
+
+.amigos {
+    
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.amigos h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+}
+
+.amigos p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+    
+.btn-amigos {
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px 25px;
+    background: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.95rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn-amigos:hover {
+    background: #47077a;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
